@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJ4rYxZb+9j0G7Ug=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E3 Football Academy</title>
+ <link rel="stylesheet" href="./style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <nav class="navbar" id="navbar">
+  <div class="logo"  data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" ><img src="./logo.jpg" alt="logo" height="60px"> </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="./reg.html">Register Now</a></li>
+    <li><a href="./cast.html">Request a Trial</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+<div class="heros" >
+     <div class="low" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">
+        <h3>Our  <span>Gallery</span></h3>
+       
+    </div>
+</div>
+<div class="program" data-aos="fade-up"
+     data-aos-duration="3000">
+    <div class="pro" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+    <h3>Latest<span> Photos</span> </h3>
+   
+ 
+        <!-- Gallery 1: Pro Sport Agency -->
+<h4>Strong partners Pro sport agency Gallery</h4>
+<div class="galleryY">
+  <img src="./bb/1.jpg" onclick="openLightbox(1);setSlide(1,1)">
+  <img src="./bb/2.jpg" onclick="openLightbox(1);setSlide(2,1)">
+  <img src="./bb/3.jpg" onclick="openLightbox(1);setSlide(3,1)">
+  <img src="./bb/4.jpg" onclick="openLightbox(1);setSlide(4,1)">
+  <img src="./bb/5.jpg" onclick="openLightbox(1);setSlide(5,1)">
+  <img src="./bb/6.jpg" onclick="openLightbox(1);setSlide(6,1)">
+</div>
+
+<div id="lightbox1" class="lightbox">
+  <span class="close" onclick="closeLightbox(1)">&times;</span>
+  <div class="lightbox-content">
+    <div class="slideY1"><img src="./bb/1.jpg"></div>
+    <div class="slideY1"><img src="./bb/2.jpg"></div>
+    <div class="slideY1"><img src="./bb/3.jpg"></div>
+    <div class="slideY1"><img src="./bb/4.jpg"></div>
+    <div class="slideY1"><img src="./bb/5.jpg"></div>
+    <div class="slideY1"><img src="./bb/6.jpg"></div>
+    <a class="prev" onclick="changeSlide(-1,1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1,1)">&#10095;</a>
+  </div>
+</div>
+
+<!-- Gallery 2: Departure -->
+<h4>Our Players</h4>
+<div class="galleryY">
+  <img src="./presi/8.jpg" onclick="openLightbox(2);setSlide(1,2)">
+  <img src="./presi/7.jpg" onclick="openLightbox(2);setSlide(2,2)">
+  <img src="./presi/15.jpg" onclick="openLightbox(2);setSlide(3,2)">
+  <img src="./presi/10.jpg" onclick="openLightbox(2);setSlide(4,2)">
+</div>
+
+<div id="lightbox2" class="lightbox">
+  <span class="close" onclick="closeLightbox(2)">&times;</span>
+  <div class="lightbox-content">
+    <div class="slideY2"><img src="./presi/8.jpg"></div>
+    <div class="slideY2"><img src="./presi/7.jpg"></div>
+    <div class="slideY2"><img src="./presi/10.jpg"></div>
+    <div class="slideY2"><img src="./presi/1.jpg"></div>
+    <div class="slideY2"><img src="./presi/2.jpg"></div>
+    <div class="slideY2"><img src="./presi/3.jpg"></div>
+    <div class="slideY2"><img src="./presi/4.jpg"></div>
+    <div class="slideY2"><img src="./presi/5.jpg"></div>
+    <div class="slideY2"><img src="./presi/6.jpg"></div>
+    <div class="slideY2"><img src="./presi/9.jpg"></div>
+    <a class="prev" onclick="changeSlide(-1,2)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1,2)">&#10095;</a>
+  </div>
+</div>
+
+<!-- Gallery 3: Legends -->
+<h4>Players who pass through E3 Football Agency 👇</h4>
+<div class="galleryY">
+  <img src="./pass/David.jpg" onclick="openLightbox(3);setSlide(1,3)">
+  <img src="./pass/Ebuka Peter.jpg" onclick="openLightbox(3);setSlide(2,3)">
+  <img src="./pass/James Osie.jpg" onclick="openLightbox(3);setSlide(2,3)">
+  <img src="./pass/Job Rooney.jpg" onclick="openLightbox(3);setSlide(2,3)">
+  <img src="./pass/Uche Agbo.jpg" onclick="openLightbox(3);setSlide(2,3)">
+</div>
+
+<div id="lightbox3" class="lightbox">
+  <span class="close" onclick="closeLightbox(3)">&times;</span>
+  <div class="lightbox-content">
+    <div class="slideY3"><img src="./pass/David.jpg"></div>
+    <div class="slideY3"><img src="./pass/Ebuka Peter.jpg"></div>
+    <div class="slideY3"><img src="./pass/James Osie.jpg"></div>
+     <div class="slideY3"><img src="./pass/Job Rooney.jpg"></div>
+      <div class="slideY3"><img src="./pass/Uche Agbo.jpg"></div>
+    <a class="prev" onclick="changeSlide(-1,3)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1,3)">&#10095;</a>
+  </div>
+</div>
+
+<!-- Gallery 4: Fans -->
+<h4>Depature</h4>
+<div class="galleryY">
+  <img src="./pass/depart.jpg" onclick="openLightbox(4);setSlide(1,4)">
+  
+</div>
+
+<div id="lightbox4" class="lightbox">
+  <span class="close" onclick="closeLightbox(4)">&times;</span>
+  <div class="lightbox-content">
+    <div class="slideY4"><img src="./pass//depart.jpg"></div>
+    <div class="slideY4"><img src="fan2.jpg"></div>
+    <a class="prev" onclick="changeSlide(-1,4)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1,4)">&#10095;</a>
+  </div>
+</div>
+
+</div>
+  
+
+</div>
+
+
+  <footer class="footer">
+  <div class="footer-container">
+    <!-- About -->
+    <div class="footer-about">
+      <h3>E3 Football Agency</h3>
+      <p>
+        E3 Football Agency was established to support talented footballers 
+        and provide opportunities worldwide. With strong partners in 
+        <strong>Europe, Asia, Africa, and the USA</strong>, we ensure our players 
+        are discovered and nurtured for success.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#partners">Partners</a></li>
+        <li><a href="#registration">Register</a></li>
+        <li><a href="#trial">Request Trial</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p><i class="fa-solid fa-phone"></i> 08039707327</p>
+      <p><i class="fa-solid fa-envelope"></i> eliudedeleanor@gmail.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> Abuja, Nigeria</p>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <a href="https://tiktok.com/@alex.aroh.lawrenc" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="https://instagram.com/alexlawrence400" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com/AlexAroh" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://youtube.com/alexlawrence2935" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://wa.me/08039707327" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom">
+    <p>&copy; 2024 E3 Football Agency. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

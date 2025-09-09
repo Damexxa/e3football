@@ -720,9 +720,12 @@ h3::after {
     padding-top: 50px;
   }
   .to {
-    display: block;
-  
-    
+    display: flex;         
+    flex-direction: column;  
+    align-items: center;   
+    gap: 20px;               
+    padding: 20px;
+    text-align: center;
   }
   .btn {
     padding-top: 50px;
@@ -732,7 +735,10 @@ h3::after {
     font-size: 30px;
   }
   .toy {
-    margin-bottom: 20px;
+    max-width: 90%;          /* allow responsive width */
+    width: auto;             /* override previous max-width if needed */
+    margin-bottom: 0;        
+    padding: 50px;
   }
   .low span {
     color: blue;

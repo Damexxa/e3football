@@ -112,6 +112,10 @@
     font-weight: 600;
     letter-spacing: 3px;
   }
+  .program img {
+    border-radius: 20px;
+
+  }
   .program {
     display: flex;
     justify-content: space-between;
@@ -120,6 +124,7 @@
     padding-top: 20px;
     background-color: #6CABDD;
     color: white;
+    padding-bottom: 40px;
   }
   .pro {
     max-width: 600px;
@@ -185,7 +190,7 @@
     justify-content: space-around;
     padding-left: 20px;
     padding-top: 30px;
-    background-color: #1C1C1C;
+    background-color: #1F2D7A;
     color: white;
     padding-bottom: 50px;
     padding-right: 20px;
@@ -397,6 +402,11 @@
         grid-template-columns: 1fr;
       }
     }
+    .lupe {
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
 
 .footer-bottom {
   text-align: center;
@@ -454,9 +464,16 @@
     background-color: #f1f1f1;
     color: #1C1C1C;
   }
+  #req img {
+     padding-left: 4px;
+  }
+  #reg img {
+    padding-left: 4px;
+  }
   #reg {
     padding: 10px 15px;
-    background-color: blue;
+    background-color: #1F2D7A;
+    
     color: #f1f1f1;
     border-radius: 5px;
     border: 1px;
@@ -489,7 +506,7 @@
     text-align: center;
   }
   #req:hover {
-    background-color: blue;
+    background-color: #1F2D7A;
     color: white;
   }
   .to {
@@ -509,12 +526,12 @@
 }
 .toy {
   text-align: center;
-  padding: 20px;
-  background: black;
+  padding: 10px;
+  background: #1F2D7A;
   color: white;
   font-family: sans-serif;
   max-width: 300px;
-  
+  border-radius: 20px;
   
 }
 
@@ -695,16 +712,22 @@ h3::after {
 }
 .action::-webkit-scrollbar {
   display: none; /* hide scrollbar */
+
 }
+ 
   /* Mobile menu */
 @media (max-width: 768px) {
+   .program img {
+    margin-top: 30px;
+    
+  }
   
   .nav-links {
     position: absolute;
     top: 60px;
     right: -100%;
     flex-direction: column;
-    background: black;   /* mobile menu background */
+    background: #1F2D7A;   /* mobile menu background */
     width: 200px;
     padding: 20px;
     transition: right 0.3s ease;
